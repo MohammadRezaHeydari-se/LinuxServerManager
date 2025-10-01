@@ -34,7 +34,7 @@ class SystemCtlMNG:
                 case "4":
                     break
                 case _:
-                    print("Invalid choice. You showld choice [1-4]")
+                    print("Invalid choice. You should choice [1-4]")
 
     def allActiveServices(self):
         self.sshcon.executeCommands("systemctl list-units --type=service --state=running")
