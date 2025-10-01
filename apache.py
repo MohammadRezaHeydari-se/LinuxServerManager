@@ -9,8 +9,6 @@ class ApacheMNG:
         # Show menu
         self.menu()
 
-
-        
     def menu(self):
         while True:
             print("#"*30)
