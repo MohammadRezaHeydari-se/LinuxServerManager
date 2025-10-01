@@ -33,7 +33,7 @@ class ApacheMNG:
                     self.apacheStart()
                 case "3":
                     self.apacheStop()
-                    print("apache stoped.")
+                    print("apache stopped.")
                 case "4":
                     self.apacheRestart()
                 case "5":
