@@ -1,3 +1,9 @@
+"""
+The class for managing systemctl services is located in this class.
+The user can view all active, inactive, and combined (Active - Deactive) services.
+"""
+
+
 from sshConnection import SSHConnection
 
 class SystemCtlMNG:
