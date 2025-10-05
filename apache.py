@@ -1,3 +1,9 @@
+"""
+The menu for Apache settings.
+This menu includes tasks related to managing a service.
+It can start, stop, and reload the server, as well as display the current status of the server to the user.
+"""
+
 from sshConnection import SSHConnection
 
 class ApacheMNG:
