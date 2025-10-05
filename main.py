@@ -1,3 +1,10 @@
+"""
+The main part of the program — this is the file from which the program is executed.
+It contains a menu that allows access to different sections.
+Here, by entering the server’s IP address, username, and password, we connect to the server via the SSH protocol.
+After that, the main menu of the program is launched.
+"""
+
 from sshConnection import SSHConnection
 from apache import ApacheMNG
 from systemCtl import SystemCtlMNG
