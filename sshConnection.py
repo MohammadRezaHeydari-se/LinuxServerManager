@@ -1,3 +1,9 @@
+"""
+This class is used for secure connection to the server via the SSH protocol using the Paramiko module.
+The module must be installed before running the program.
+This class includes methods for connecting to the server, closing the connection, executing commands on the server, and also running Linux commands directly on the server.
+"""
+
 import paramiko 
 from getpass import getpass
 from sessionLog import SessionLogger
