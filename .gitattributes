@@ -1,0 +1,6 @@
+# Save all file as LF 
+* text=auto eol=lf
+
+# Windows special files
+*.bat text eol=crlf
+*.ps1 text eol=crlf
